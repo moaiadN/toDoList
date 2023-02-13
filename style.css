@@ -113,3 +113,18 @@ section {
     background: rgb(0, 16, 197);
     color: #fff;
 }
+
+/* =======---- Responsive Section ----======= */
+@media screen and (max-width: 600px) {
+    section {
+        width: 100%;
+    }
+    .circular {
+      font-size: 15px;
+      margin-left: 5px;
+    }
+    .info h3 {
+       font-size: 15px;
+    }
+  
+  }
